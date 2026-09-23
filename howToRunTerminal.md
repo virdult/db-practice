@@ -1,2 +1,2 @@
-1. Creating the table from the seed_data: (Run it in the folder that contains the seed_data.sql)
-    psql -d virdultdb -U virdult -h localhost -f seed_data.sql
+1. How to run the SQL folders:
+    psql -d virdultdb -U virdult -h localhost -f sql_file_name_placeholder.sql
