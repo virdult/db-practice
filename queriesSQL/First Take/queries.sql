@@ -79,3 +79,20 @@
 -- HAVING COUNT(reviews.review_id) >= 2;
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
+-- 1. Basic SELECT/WHERE — find all movies released after 2010
+
+-- 2. Basic SELECT with ORDER BY — list actors by birth year, oldest first
+
+-- 3. INNER JOIN — show each review with the movie title it belongs to
+
+-- 4. LEFT JOIN — show all movies, even ones with no reviews (some should show NULL)
+
+-- 5. Aggregate — count how many movies each director has made
+
+-- 6. Aggregate + HAVING — directors who have made more than 1 movie
+
+-- 7. Nested query — find directors who have never directed a movie (hint: think NOT IN or NOT EXISTS with a subquery)
+
+-- 8. SPJ across 3 tables — list director name, movie title, and genre, but only for movies with a rating above 8.5
+
+-- 9. Aggregate with join — for each genre, show the average rating AND the number of movies, but only include genres where the average rating is above 8.0 (this one combines two things you haven't had to combine before — think about the order WHERE/GROUP BY/HAVING would need to happen in)
